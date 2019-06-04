@@ -12,13 +12,9 @@
     name: inspec
 
   platforms:
-<<<<<<< HEAD
     name: [ubuntu-16.04]
     driver:
       box: ubuntu/xenial64
-=======
-    name: ubuntu/xenial64
->>>>>>> ef9f708aad062265d3a708bd0b76270bf3bf1331
 
   suites:
     name: default
