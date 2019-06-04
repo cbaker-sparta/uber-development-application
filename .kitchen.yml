@@ -15,9 +15,7 @@ verifier:
   chef_license: accept-no-persist
 
 platforms:
-  name: ubuntu-16.04
-  driver:
-    box: ubuntu/xenial64
+  name: ubuntu/xenial64
 
 suites:
   - name: default
