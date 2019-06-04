@@ -17,7 +17,7 @@ describe 'uber-app::default' do
 
     it 'converges successfully' do
       expect { chef_run }.to_not raise_error
-
+    end
 
     it 'runs apt get update' do
       expect(chef_run).to update_apt_update 'update'
