@@ -23,3 +23,7 @@ Vagrant.configure("2") do |config|
   end
   config.vm.provision "shell", inline: python_start(), privileged: false
 end
+
+
+
+# test code for dev
