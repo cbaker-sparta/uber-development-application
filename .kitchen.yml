@@ -1,6 +1,6 @@
 ---
 driver:
-  name: vagrant
+  name: ec2
 
 provisioner:
   name: chef_zero
@@ -16,6 +16,8 @@ verifier:
 
 platforms:
   - name: ubuntu-16.04
+    driver:
+      box: ubuntu/xenial64
 
 suites:
   - name: default
