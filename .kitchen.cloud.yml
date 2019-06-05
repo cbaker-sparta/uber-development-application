@@ -6,8 +6,6 @@ driver_config:
   name: ec2
   region: eu-west-1
   require_chef_omnibus: true
-transport:
-  username: ubuntu
 provisioner:
   name: chef_zero
   log_level: info
