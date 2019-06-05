@@ -6,8 +6,6 @@ description 'Installs/Configures uber-app'
 long_description 'Installs/Configures uber-app'
 version '0.1.0'
 chef_version '>= 13.0'
-kitchen_version '>= 1.20.0'
-ruby_version '>= 2.4.0'
 
 # The `issues_url` points to the location where issues for this cookbook are
 # tracked.  A `View Issues` link will be displayed on this cookbook's page when
