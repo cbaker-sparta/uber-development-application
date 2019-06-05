@@ -1,16 +1,25 @@
 ---
 attributes: ~
-driver:
+driver_config:
   associate_public_ip: true
   instance_type: t2.micro
   name: ec2
-  region: eu-west-2
+  region: eu-west-1
   require_chef_omnibus: true
+transport:
+  username: ubuntu
+provisioner:
+  name: chef_zero
+  log_level: info
+  chef_license: accept-no-persist
+  product_name: chef
+  product_version: 14.10.9
+  always_update_cookbooks: true
 platforms:
   -
     driver:
       box: ubuntu/xenial64
-    name: ubuntu-18.04
+    name: ubuntu-16.04
 suites:
   -
     name: default
