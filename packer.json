@@ -43,9 +43,5 @@
       "type": "file",
       "source": "app/",
       "destination": "/home/ubuntu/app"
-    },
-    {
-      "type": "shell",
-      "inline":["cd /home/ubuntu/app", "npm install"]
     }]
 }
