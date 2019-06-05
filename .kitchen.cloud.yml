@@ -6,7 +6,6 @@ driver:
   name: ec2
   region: eu-west-2
   require_chef_omnibus: true
-  subnet_id: subnet-0e9b6138ff1ce18f2
 platforms:
   -
     driver:
