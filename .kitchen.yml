@@ -21,8 +21,6 @@ verifier:
 
 platforms:
   - name: ubuntu-18.04
-    driver:
-      box: ubuntu/xenial64
 
 suites:
   - name: default
