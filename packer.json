@@ -46,6 +46,10 @@
     },
     {
       "type": "shell",
-      "inline": ["cd /home/ubuntu/app python app.py"]
+      "inline": ["cd /home/ubuntu/app"]
+    },
+    {
+      "type": "shell",
+      "inline": ["python app.py"]
     }]
 }
