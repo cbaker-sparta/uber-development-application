@@ -20,7 +20,7 @@
     },
     "instance_type": "t2.micro",
     "ssh_username": "ubuntu",
-    "ami_name": "team-3-uber-application"
+    "ami_name": "team-3-uber-application-{{timestamp}}"
   }],
   "provisioners":[
     {
